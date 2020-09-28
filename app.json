@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "tic-tac-toe",
+    "slug": "tic-tac-toe",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/tic.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.sameer.tictactoe",
+      "versionCode":1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
